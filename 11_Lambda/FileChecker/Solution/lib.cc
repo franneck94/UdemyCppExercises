@@ -5,6 +5,8 @@
 
 #include "lib.h"
 
+namespace fs = std::filesystem;
+
 bool number_of_source_files(const FileVec &files)
 {
     return std::count_if(files.begin(), files.end(), [](const auto &file) {

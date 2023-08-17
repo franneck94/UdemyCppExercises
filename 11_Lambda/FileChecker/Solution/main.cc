@@ -6,6 +6,8 @@
 #include "lib.h"
 #include "utils.hpp"
 
+namespace fs = std::filesystem;
+
 int main(int argc, char **argv)
 {
     auto dir = fs::path{};
