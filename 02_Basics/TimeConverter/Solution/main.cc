@@ -1,8 +1,14 @@
 #include <cassert>
 #include <iostream>
+#include <cmath>
+#include <limits>
 
 #include "lib.h"
-#include "utils.hpp"
+
+template <typename T>
+bool is_close(T a, T b, T tolerance = std::numeric_limits<T>::epsilon()) {
+    return std::abs(a - b) <= tolerance;
+}
 
 void test_cases();
 
