@@ -17,7 +17,8 @@ It prev(It it, DifferenceType n = 1);
 ```
 
 - advance
-  - Step n-steps to the right (forward) with the iterator
+  - Step n-steps to the right (forward) with the iterator if n is positive
+  - Step n-steps to the left (backward) with the iterator if n is negative
 - distance
   - Compute the distance between two iterators of the same container
 - next
@@ -26,6 +27,8 @@ It prev(It it, DifferenceType n = 1);
 - prev
   - Step 1-step to the left (backward) with the iterator
   - Note: 1-step is the default value for the parameter n
+
+The functions should work for vectors, lists etc.
 
 ## Main Function
 
