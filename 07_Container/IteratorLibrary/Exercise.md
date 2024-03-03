@@ -22,10 +22,10 @@ It prev(It it, DifferenceType n = 1);
 - distance
   - Compute the distance between two iterators of the same container
 - next
-  - Step 1-step to the right (forward) with the iterator
+  - Step n-steps with the iterator
   - Note: 1-step is the default value for the parameter n
 - prev
-  - Step 1-step to the left (backward) with the iterator
+  - Step n-steps with the iterator
   - Note: 1-step is the default value for the parameter n
 
 The functions should work for vectors, lists etc.
