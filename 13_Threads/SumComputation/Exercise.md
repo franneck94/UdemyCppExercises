@@ -3,7 +3,7 @@
 Note: Based on Chapter 13 in the main course.
 
 ```cpp
-#include "utils.hpp"
+#include "utils.hpp" // dont forget the include setting for the c++ runner
 #include "Timer.hpp"
 
 template <typename RandomIter>

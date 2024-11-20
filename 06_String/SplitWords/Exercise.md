@@ -15,7 +15,7 @@ std::vector<std::string> split_text(const std::string &text, char delimiter);
 Read in the text of the local **text.txt** file, the **readFile** is defined in the **utils** header:
 
 ```cpp
-#include "utils.hpp"
+#include "utils.hpp" // dont forget the include setting for the c++ runner
 
 auto text = readFile("C:/Users/Jan/OneDrive/_Coding/Udemy_CppExt/5_String/SplitWords/text.txt");
 ```
